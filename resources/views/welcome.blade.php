@@ -41,8 +41,9 @@
                     <h1 style="color: rgb(139, 12, 12)">BEN IRAA BLOG API</h1>
                   <br>
                     <ul style="color: white">
-                        <li>User can Register</li>
-                        <li>User can be Able to Log in With The Register Credentials</li>
+                        <li>User can Register <a href="" style="color: gold;">[http://localhost:8000/api/register] <b>POST</b></a></li>
+                        <li>User can be Able to Log in With The Register Credentials <a href="" style="color: gold;">[http://localhost:8000/api/login] <b>POST</b></a></li>
+                        <li>User can be Able to Logout <a href="" style="color: gold;">[http://localhost:8000/api/logout] <b>POST</b></a></li>
                         <li>After Log in User Get Tokken With  <a href="https://laravel.com/docs/9.x/sanctum" style="color: rgb(139, 12, 12);"> <u> Sanctum Token </u></a></li>
                         <li>User can Add New Blog <a href="" style="color: gold;">[http://localhost:8000/api/posts] <b>POST</b></a> </li>
                         <li>User can Get One Blog <a href="" style="color: green;">[http://localhost:8000/api/posts/{id}] <b>GET</b></a></li>
